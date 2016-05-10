@@ -54,7 +54,7 @@ is still a little hacky. It also gets tripped up if you point it at a
 directory without manually appending a trailing slash (`/`) to the URL.
 
 As stated before, it's, like, totally without security, or any features
-other than directly responding to `GET`s and `POST`s. To request throttling
+other than directly responding to `GET`s and `POST`s. No request throttling
 (except as limited by the hardware and `dhttpd.py`'s ability to process
 requests serially). It was meant to be educational (for me), and to a lesser
 degree a simple local tool for determining if your web layouts look good
