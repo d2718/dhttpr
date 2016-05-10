@@ -1,0 +1,9 @@
+# compiled Python libraries #
+*.pyc
+
+# emacs waste #
+*~
+*#
+
+# nohup logs #
+nohup.out

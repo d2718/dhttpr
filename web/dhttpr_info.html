@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<title>dhttpr Info</title>
+<link rel='stylesheet' type='text/css' href='/default.css'>
+</head>
+<body><div id="main">
+<h1><code>dhttpr</code> Info</h1>
+<ul>
+    <li>written by Dan Hill (dan@camelotacademy.org)</li>
+    <li>current version is 0.4-dev</li>
+</ul>
+
+<h3>Some Technical Description</h3>
+
+<p><code>dhttpr</code> uses <code>inetd</code> to receive and respond to
+requests using the standard input and output streams. This allows the
+network/socket/communication heavy lifting to be done by an external
+application, and greatly simplifies the operation of the software I have
+to write.</p>
+
+<p>The original couple of iterations of the software were called
+directly by <code>inetd</code>, but as the feature set increased, the
+amount of code loaded to serve each request grew alarmingly. The
+current version runs as a daemon, with <code>inetd</code> invoking a
+lightweight process to shuffle each request to the server process and
+subsequent response back.</p>
+
+</div></body>
+</html>

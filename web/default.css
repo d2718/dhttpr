@@ -1,0 +1,24 @@
+body {
+    background-color: darkolivegreen;
+    color: #121;
+    text-align: center;
+    font-family: serif;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+div#main {
+    text-align: left;
+    background-color: bisque;
+    display: inline-block;
+    margin: 0 auto 0 auto;
+    padding: 1em;
+    min-height: calc(100vh - 2em);
+    width: calc(80ex + 2em);
+}
+
+div#main h1 { text-align: center; }
+
+p, li { text-align: justify; }

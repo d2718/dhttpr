@@ -1,0 +1,40 @@
+16-04-30 19:50:09: in main(): pid 8083
+16-04-30 19:50:09: in respond_to_request({id}): serving GET
+16-04-30 19:50:09: serve_get(): args: ['/', 'HTTP/1.1']
+16-04-30 19:50:09: serve_get(): serving directory /home/dan/dev/inet/web/
+16-04-30 19:50:09: serve_file(): content_type is text/html
+16-04-30 19:50:09: serve_file(): ETags match; sending 304
+16-04-30 19:50:26: in main(): pid 8118
+16-04-30 19:50:26: in respond_to_request({id}): serving GET
+16-04-30 19:50:26: serve_get(): args: ['/', 'HTTP/1.1']
+16-04-30 19:50:26: serve_get(): serving directory /home/dan/dev/inet/web/
+16-04-30 19:50:26: serve_file(): content_type is text/html
+16-04-30 19:50:26: in main(): pid 8122
+16-04-30 19:50:26: in respond_to_request({id}): serving GET
+16-04-30 19:50:26: serve_get(): args: ['/default.css', 'HTTP/1.1']
+16-04-30 19:50:26: serve_get(): serving file /home/dan/dev/inet/web/default.css
+16-04-30 19:50:26: serve_file(): content_type is text/css
+16-04-30 19:50:26: in main(): pid 8123
+16-04-30 19:50:26: in respond_to_request({id}): serving GET
+16-04-30 19:50:26: serve_get(): args: ['/mr_yuck.png', 'HTTP/1.1']
+16-04-30 19:50:26: serve_get(): serving file /home/dan/dev/inet/web/mr_yuck.png
+16-04-30 19:50:26: serve_file(): content_type is image/png
+16-04-30 19:50:28: in main(): pid 8128
+16-04-30 19:50:28: in respond_to_request({id}): serving GET
+16-04-30 19:50:28: serve_get(): args: ['/', 'HTTP/1.1']
+16-04-30 19:50:28: serve_get(): serving directory /home/dan/dev/inet/web/
+16-04-30 19:50:28: serve_file(): content_type is text/html
+16-04-30 19:50:28: in main(): pid 8132
+16-04-30 19:50:28: in respond_to_request({id}): serving GET
+16-04-30 19:50:28: serve_get(): args: ['/default.css', 'HTTP/1.1']
+16-04-30 19:50:28: serve_get(): serving file /home/dan/dev/inet/web/default.css
+16-04-30 19:50:28: serve_file(): content_type is text/css
+16-04-30 19:50:28: serve_file(): ETags match; sending 304
+16-04-30 19:50:28: in main(): pid 8133
+16-04-30 19:50:28: in respond_to_request({id}): serving GET
+16-04-30 19:50:28: serve_get(): args: ['/mr_yuck.png', 'HTTP/1.1']
+16-04-30 19:50:28: serve_get(): serving file /home/dan/dev/inet/web/mr_yuck.png
+16-04-30 19:50:28: serve_file(): content_type is image/png
+16-04-30 19:50:28: serve_file(): ETags match; sending 304
+16-04-30 19:53:06: in main(): EXIT command rec'd
+16-04-30 19:53:06: die()
