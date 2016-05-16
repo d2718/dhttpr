@@ -20,8 +20,8 @@ temporary files aren't stored in `/tmp`, and you don't have a `/run/shm`,
 you may need to probe deeper, and also poke around in `dhttpr.py`.)
 
 The only other thing you need to do is configure `inetd`. Here's a sample
-configuration stanza:
-
+configuration stanza (you need to point the `server =` option to the path
+of `dhttpr.py`):
 ```
 service http
 {
@@ -32,7 +32,7 @@ service http
     socket_type = stream
     wait        = no
     user        = dan
-    server      = /home/dan/dev/dhttpr/dhttpr.py
+    server      = /home/dan/dev/dhttpr/dhttpr.py   #point me at dhttpr.py
 }
 ```
 
